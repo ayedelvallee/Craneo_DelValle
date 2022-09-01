@@ -1,0 +1,55 @@
+/*FORMATO TEXTOS*/
+$colorTexto: rgb(168, 168, 168);
+
+.tituloPrincipal{
+    color: $colorTexto;
+    font-size: 700%;
+    font-weight: bold;
+    text-align: center;
+    margin: 2%; 
+} 
+
+.texto2Header{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    margin: 1%;
+    background-color: rgba(202, 202, 202, 0.719);
+    border-radius: solid black 1px;
+}
+
+.formatoParrafos {
+    width: 110%;
+    height: 80%;
+    margin: 25%;
+    border-bottom: solid 3px gray;
+    border-left: solid 3px gray;
+    padding: 12px;
+    line-height: 2;
+} 
+
+.fuente{
+    color: $colorTexto;
+    text-align: center;
+    margin: 25px;
+}
+
+.titulosIntermedios{
+    @extend .fuente;
+    font-size: 243%;
+}
+.titulosMenores{
+    @extend .fuente;
+    font-size: 150%;   
+}
+
+.formatoSinopsis {
+    width: 92%;
+    height: 37%;
+    margin: 3%;
+    border-bottom: solid 3px gray;
+    border-left: solid 3px gray;
+    padding: 12px;
+    line-height: 2;
+} 

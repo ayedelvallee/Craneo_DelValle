@@ -1,0 +1,21 @@
+@import "_texto";
+@import "_animaciones";
+@import "grid";
+@import "imagenes";
+@import "../bs-scss/bootstrap.scss";
+
+header{
+    background-image: url("../imagenes/teatro-indep.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100vw;
+}
+
+.margin-left{
+    margin-left: 15px;
+}
+.margin-top{
+    margin-top: 10px;
+}
+

@@ -1,0 +1,82 @@
+/*ESCRITORIO*/
+
+/* Grid areas*/
+
+#titulo1{
+    grid-area: titulo1;
+}
+
+#foto{
+    grid-area: foto;
+}
+#parrafo{
+    grid-area: parrafo;
+}
+
+#titulo2{
+    grid-area: titulo2;
+}
+
+#cuadrado1{
+    grid-area: cuadrado1;
+}
+#cuadrado2{
+    grid-area: cuadrado2;
+}
+
+#instagram{
+    grid-area: instagram;
+}
+
+@media (min-width: 1024px) {
+/*GRID AREAS PLANTAS DE INTERIOR*/
+   
+    .gridEnCartel{
+        display: grid;
+        grid-template-areas: 
+        "titulo1 titulo1"
+        "foto parrafo"
+        "titulo2 titulo2"
+        "cuadrado1 cuadrado2"
+        "instagram instragram";
+        grid-template-columns: 600px 700px;
+        grid-template-rows: 100% 150% 1fr 1fr 100%;
+    }
+   
+   }
+   
+   
+   /** TABLET */
+   @media (min-width: 481px) and (max-width: 1023px){
+    .gridEnCartel{
+        display: grid;
+        grid-template-areas: 
+        "titulo1 titulo1"
+        "foto parrafo"
+        "titulo2 titulo2"
+        "cuadrado1 cuadrado2"
+        "instagram instragram";
+        grid-template-columns: 600px 700px;
+        grid-template-rows: 100% 150% 1fr 1fr 100%;
+    }
+  
+   
+   }
+   
+   /** SMARTPHONE  */
+   @media (max-width: 480px){
+   
+    .gridEnCartel{
+        display: grid;
+        grid-template-areas: 
+        "titulo1 titulo1"
+        "foto parrafo"
+        "titulo2 titulo2"
+        "cuadrado1 cuadrado2"
+        "instagram instragram";
+        grid-template-columns: 600px 700px;
+        grid-template-rows: 100% 150% 1fr 1fr 100%;
+    }
+    
+    }
+   
