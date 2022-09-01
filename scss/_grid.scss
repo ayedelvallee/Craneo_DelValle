@@ -28,6 +28,7 @@
     grid-area: instagram;
 }
 
+
 @media (min-width: 1024px) {
 /*GRID AREAS PLANTAS DE INTERIOR*/
    
@@ -42,7 +43,23 @@
         grid-template-columns: 600px 700px;
         grid-template-rows: 100% 150% 1fr 1fr 100%;
     }
-   
+    .trailer{
+        width:560px;
+        height:315px;
+        margin-left: 397px;
+        margin-top: 35px;
+    }
+    .formatoSinopsis {
+        width: 92%;
+        height: 37%;
+        margin: 3%;
+        padding: 12px;
+        line-height: 2;
+    } 
+    .entradasyMaps{
+        margin-left: 100px;
+        margin-top: 15px;
+    }
    }
    
    
@@ -51,16 +68,31 @@
     .gridEnCartel{
         display: grid;
         grid-template-areas: 
-        "titulo1 titulo1"
-        "foto parrafo"
-        "titulo2 titulo2"
-        "cuadrado1 cuadrado2"
-        "instagram instragram";
-        grid-template-columns: 600px 700px;
-        grid-template-rows: 100% 150% 1fr 1fr 100%;
+        "titulo1"
+        "foto"
+        "parrafo"
+        "titulo2"
+        "cuadrado1"
+        "cuadrado2"
+        "instagram";
+        grid-template-columns: 600px;
+        grid-template-rows: 100% 150% 150% 1fr 100% 100% 70px;
     }
-  
-   
+   .trailer{
+        width:300px;
+        height:200px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .formatoSinopsis {
+        width: 92%;
+        height: 37%;
+        margin-left: 20px;
+    } 
+    .entradasyMaps{
+        margin-left: 70px;
+        margin-top: 15px;
+    }
    }
    
    /** SMARTPHONE  */
@@ -69,14 +101,30 @@
     .gridEnCartel{
         display: grid;
         grid-template-areas: 
-        "titulo1 titulo1"
-        "foto parrafo"
-        "titulo2 titulo2"
-        "cuadrado1 cuadrado2"
-        "instagram instragram";
-        grid-template-columns: 600px 700px;
-        grid-template-rows: 100% 150% 1fr 1fr 100%;
+        "titulo1"
+        "foto"
+        "parrafo"
+        "titulo2"
+        "cuadrado1"
+        "cuadrado2"
+        "instagram";
+        grid-template-columns: 600px;
+        grid-template-rows: 100% 150% 150% 1fr 100% 100% 70px;
     }
-    
+    .trailer{
+        width:300px;
+        height:200px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .formatoSinopsis {
+        width: 92%;
+        height: 37%;
+        margin-left: 20px;
+    } 
+    .entradasyMaps{
+        margin-left: 70px;
+        margin-top: 15px;
+    }
     }
    

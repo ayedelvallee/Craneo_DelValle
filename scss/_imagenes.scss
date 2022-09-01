@@ -9,16 +9,9 @@
    
 }
 
-.trailer{
-    @include tamanio(560px, 315px);
-    margin-left: 397px;
-    margin-top: 35px;
-}
 
-.entradasyMaps{
-    margin-left: 113px;
-    margin-top: 15px;
-}
+
+
 .instragramLogo{
     @include tamanio(50px, 50px);
     margin: 15px;
